@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FitFood Aceite</title>
+</head>
+<style>
+body {
+	margin: 0px;
+	width: 100%;
+	height: 2300px;
+}
+.termos {
+  position: absolute;
+  left: 5%; 
+  top: 25%;
+  border: 1px solid red;
+  width: 90%;
+  height: 200px;
+}
+</style>
+<script>
+function uniqueURL(baseurl) {
+    var url = baseurl + "?v=" + Math.random();
+    window.location.href = url;
+}
+</script>
+<body style="background-color:Black;">
+
+<svg
+   width="100%"
+   border="0"
+   viewBox="0 0 1080 1800"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+	<g
+     id="layer1"
+     transform="translate(-22.652126,86.079506)">
+    <image
+       x="0"
+       y="0" 
+       width="1080"
+       height="1700"
+       preserveAspectRatio="none"
+       xlink:href="aceite.png"
+       id="image832"
+	/>
+    <path onclick="uniqueURL('termos_sim.html')"
+       id="rect2019"
+       style="fill:#ff00ff;stroke:none;fill-opacity:0.0"
+       d="m 250,1327 h 558 v 198 H 253 Z" />
+    <path onclick="uniqueURL('termos_nao.html')"
+       id="rect2019"
+       style="fill:#ff00ff;stroke:none;fill-opacity:0.0"
+       d="m 250,1575 h 558 v 198 H 253 Z" />	   
+  </g>
+</svg>
+
+<iframe src="terms.html" class="termos" title="Termos de Aceite"></iframe>
+
+
+</body>
+</html>
+
+
